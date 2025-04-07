@@ -593,7 +593,7 @@ forward MP_OPCPTD(playerid, PlayerText:playertextid);
 //------------------------------------------------------------------
 
 
-stock LoadModelSelectionMenu(f_name[])
+stock LoadModelSelectionMenu(const f_name[])
 {
 	new File:f, str[75];
 	format(str, sizeof(str), "%s", f_name);
