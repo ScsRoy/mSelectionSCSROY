@@ -1,10 +1,7 @@
-//
-// Model Selection using previews. For SA-MP 0.3x and above.
-// - D0erfler 2013
-// - Kye 2013
-//
-// Version 1.1 R2
-
+/*
+	Credits:  MySantos
+	Contributes: ScsRoy
+*/
 /*Functions to be used
 
 LoadModelSelectionMenu(f_name[])
@@ -13,6 +10,12 @@ ShowModelSelectionMenu(playerid, ListID, header_text[], dialogBGcolor = 0x4A5A6B
 ShowModelSelectionMenuEx(playerid, items_array[], item_amount, header_text[], extraid, Float:Xrot = 0.0, Float:Yrot = 0.0, Float:Zrot = 0.0, Float:mZoom = 1.0, dialogBGcolor = 0x4A5A6BBB, previewBGcolor = 0x88888899 , tdSelectionColor = 0xFFFF00AA)
 
 */
+
+/* What's New??
+	[+]I added const function to some functions
+	[!]basically this latest include is still using the old 0.3.x system but I updated it to be used on the latest OPEN:MP or SA:MP.
+*/
+
 // Callbacks
 forward OnPlayerModelSelection(playerid, response, listid, modelid);
 forward OnPlayerModelSelectionEx(playerid, response, extraid, modelid);
